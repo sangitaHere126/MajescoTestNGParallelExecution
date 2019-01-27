@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BDD Test Suite" parallel="tests"  thread-count="2" configfailurepolicy="continue">
+    <test name="My Tests" annotations="JDK" preserve-order="true">
+     <classes>
+        <class name="Runner.TestNgRunnerTest"/>
+        
+    </classes>
+    </test>
+    <test name="My Tests1" annotations="JDK" preserve-order="true">
+     <classes>
+       
+        <class name="Runner.TestNgRunner2Test"/>
+    </classes>
+    </test>
+</suite>

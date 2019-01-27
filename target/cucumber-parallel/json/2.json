@@ -1,0 +1,74 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 371200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.startTest(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "2nd Test scenario",
+        "description": "",
+        "id": "2nd-feature-file;2nd-test-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 56320,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.endTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 44256680423,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Test set up for second feature file",
+            "match": {
+              "location": "TestNg_StepDef.scnario2Step()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15322715168,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "we get another url",
+            "match": {
+              "location": "TestNg_StepDef.scnario2OpenBrowser()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@2ndScenario"
+          }
+        ]
+      }
+    ],
+    "name": "2nd Feature File",
+    "description": "",
+    "id": "2nd-feature-file",
+    "keyword": "Feature",
+    "uri": "E:/Majesco/Testng/src/main/resources/Features/Abe.feature"
+  }
+]

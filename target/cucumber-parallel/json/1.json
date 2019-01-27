@@ -1,0 +1,74 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 620373,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.startTest(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "xml Test scenario",
+        "description": "",
+        "id": "xml-test;xml-test-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 257280,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.endTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 44251320213,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Test set up for xml and pdf",
+            "match": {
+              "location": "TestNg_StepDef.scnario1Step()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 32808112296,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "required url is opened",
+            "match": {
+              "location": "TestNg_StepDef.scnario1OpenBrowser()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@xmlPdf"
+          }
+        ]
+      }
+    ],
+    "name": "xml Test",
+    "description": "",
+    "id": "xml-test",
+    "keyword": "Feature",
+    "uri": "E:/Majesco/Testng/src/main/resources/Features/01pdfAndXml.feature"
+  }
+]
